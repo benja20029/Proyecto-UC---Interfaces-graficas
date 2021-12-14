@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="fondo_grande" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-20</y>
+      <width>800</width>
+      <height>721</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(14, 93, 12)</string>
+    </property>
+    <widget class="QLabel" name="puntajes">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>30</y>
+       <width>781</width>
+       <height>681</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207); border-radius: 4px; border: 2px solid white</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>60</y>
+       <width>300</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Noto Sans Gurmukhi Black</family>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>RESUMEN DE NIVEL</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>170</y>
+       <width>200</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter Semi Bold</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>Nivel actual:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>220</y>
+       <width>200</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter Semi Bold</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>Puntaje total:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>270</y>
+       <width>281</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter Semi Bold</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>Puntaje obtenido en el nivel:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>320</y>
+       <width>200</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter Semi Bold</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>Vidas restantes:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>370</y>
+       <width>200</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter Semi Bold</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>Total de monedas:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_nivel">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>170</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter Semi Bold</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>Nivel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_puntaje_total">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>220</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter Semi Bold</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>Puntaje total</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_puntaje_nivel">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>270</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter Semi Bold</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>Puntaje nivel</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_vidas_restantes">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>320</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter Semi Bold</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>Vidas restantes</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_monedas_total">
+     <property name="geometry">
+      <rect>
+       <x>650</x>
+       <y>370</y>
+       <width>111</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Inter Semi Bold</family>
+       <pointsize>15</pointsize>
+       <weight>50</weight>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(172, 211, 207)</string>
+     </property>
+     <property name="text">
+      <string>Total monedas</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_seguir_juego">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>460</y>
+       <width>300</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:     #4bf057; border-radius: 5px; border: 1px solid black </string>
+     </property>
+     <property name="text">
+      <string>Puedes seguir con el siguiente nivel</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="next_level_button">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>640</y>
+       <width>300</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: white; border-radius: 5px; border: 1px solid black</string>
+     </property>
+     <property name="text">
+      <string>Siguiente nivel</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="exit_button">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>640</y>
+       <width>300</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: white; border-radius: 5px; border: 1px solid black</string>
+     </property>
+     <property name="text">
+      <string>Salir</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

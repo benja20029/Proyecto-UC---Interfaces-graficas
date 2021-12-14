@@ -1,0 +1,38 @@
+# --------------------------------------------
+# Custom
+# --------------------------------------------
+
+#  Ignore all local modifications on Jupyter Notebooks
+*.ipynb
+
+# --------------------------------------------
+# Python
+# --------------------------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+canciones/
+sprites/
+
+# --------------------------------------------
+# JupyterNotebooks
+# --------------------------------------------
+
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
+#
+
+# End of https://www.gitignore.io/api/jupyternotebooks
+*.csv
+*.idea
+*.DS_STORE
+Enunciado.pdf
+Enunciado (imprimible).pdf
